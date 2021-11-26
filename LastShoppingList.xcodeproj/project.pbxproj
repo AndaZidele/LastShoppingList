@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		01418146274F09EA00622748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01418145274F09EA00622748 /* AppDelegate.swift */; };
 		01418148274F09EA00622748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01418147274F09EA00622748 /* SceneDelegate.swift */; };
-		0141814A274F09EA00622748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01418149274F09EA00622748 /* ViewController.swift */; };
 		0141814D274F09EA00622748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0141814B274F09EA00622748 /* Main.storyboard */; };
 		01418150274F09EA00622748 /* LastShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0141814E274F09EA00622748 /* LastShoppingList.xcdatamodeld */; };
 		01418152274F09EC00622748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01418151274F09EC00622748 /* Assets.xcassets */; };
 		01418155274F09EC00622748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01418153274F09EC00622748 /* LaunchScreen.storyboard */; };
+		0141815D274F0A3400622748 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141815C274F0A3400622748 /* ShoppingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01418142274F09EA00622748 /* LastShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01418145274F09EA00622748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01418147274F09EA00622748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01418149274F09EA00622748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0141814C274F09EA00622748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0141814F274F09EA00622748 /* LastShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LastShoppingList.xcdatamodel; sourceTree = "<group>"; };
 		01418151274F09EC00622748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01418154274F09EC00622748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01418156274F09EC00622748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0141815C274F0A3400622748 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				01418145274F09EA00622748 /* AppDelegate.swift */,
 				01418147274F09EA00622748 /* SceneDelegate.swift */,
-				01418149274F09EA00622748 /* ViewController.swift */,
+				0141815C274F0A3400622748 /* ShoppingTableViewController.swift */,
 				0141814B274F09EA00622748 /* Main.storyboard */,
 				01418151274F09EC00622748 /* Assets.xcassets */,
 				01418153274F09EC00622748 /* LaunchScreen.storyboard */,
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0141814A274F09EA00622748 /* ViewController.swift in Sources */,
 				01418150274F09EA00622748 /* LastShoppingList.xcdatamodeld in Sources */,
 				01418146274F09EA00622748 /* AppDelegate.swift in Sources */,
+				0141815D274F0A3400622748 /* ShoppingTableViewController.swift in Sources */,
 				01418148274F09EA00622748 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
